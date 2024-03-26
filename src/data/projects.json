@@ -1,0 +1,8 @@
+[
+    {
+        "name": "DaVinci",
+        "image": "projects/nst-image2.png",
+        "description": "DaVinci is an AI art application that uses Neural Style Transfer to transfer an image's art style onto another image.",
+        "git": "https://github.com/behzadwaseem/davinci-neural-style-transfer"
+    }
+]
