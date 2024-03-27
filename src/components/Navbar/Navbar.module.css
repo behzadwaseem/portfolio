@@ -3,7 +3,8 @@
 
 .navsection {
     /* background: var(--color-nav); */
-    width: 100%
+    width: 100%;
+    margin-top: 0;
 
 }
 
@@ -13,12 +14,11 @@
     position: fixed;
     top: 0;
     display: flex;
-    /* align: center; */
     justify-content: space-between;
     padding-top: 31px;
     padding-left: 0px;
     z-index: 2;
-    /* margin: 0 10%; */
+    margin: 0;
 }
 
 .title {
@@ -45,7 +45,6 @@
 
 .menuItems {
     display: flex;
-    /* padding-bottom: 10px; */
     gap: 30px;
     list-style: none;
     transition: 0.5s;
