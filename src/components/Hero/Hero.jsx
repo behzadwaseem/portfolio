@@ -13,7 +13,7 @@ export const Hero = () => {
         <container className={styles.banner}>
             <div className={styles.heroSectionText}>
                 <h1 className={styles.heroHeading}>Hi, I'm Behzad!</h1>
-                <h1 className={styles.heroText}>I am a
+                <h1 className={styles.heroText}>
                 <div className={styles.typeWriter}>
                     <span>
                     Software Developer<br/>
