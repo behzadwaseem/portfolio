@@ -13,20 +13,18 @@ export const Hero = () => {
         <container className={styles.banner}>
             <div className={styles.heroSectionText}>
                 <h1 className={styles.heroHeading}>Hi, I'm Behzad!</h1>
-                <h1 className={styles.heroText}>I'm an aspiring
+                <h1 className={styles.heroText}>I am a
                 <div className={styles.typeWriter}>
                     <span>
-                    Creator<br/>
                     Software Developer<br/>
-                    UWaterloo Mathematics Student<br/>
-                    Robot Builder
+                    Mechatronics Engineering Student @ UWaterloo<br/>
+                    Robotics Enthusiast
                     </span>
                 </div>
                 </h1>
                 <p className={styles.heroParagraph}><span className={styles.highlight}>Surfing the internet can be tiring sometimes. 
                 <br></br><br></br>Feel free to rest here as long as you need and take a look around!</span></p>
             </div>
-                {/* <img className={styles.banner} src={getImageUrl("portfolio-banner.jpeg")} alt="campfire-banner-image"/> */}
         </container>
     </section>
     )
