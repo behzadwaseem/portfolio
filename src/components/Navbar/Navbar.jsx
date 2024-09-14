@@ -28,10 +28,10 @@ export const Navbar = () => {
                             <li className={styles.notConnect}><Link to="skills" spy={true} smooth={true} offset={-50} duration={500} href='#skills'>Skills</Link></li>
                             <li className={styles.notConnect}><Link to="experience" spy={true} smooth={true} offset={-150} duration={500} href='#experience'>Experience</Link></li>
                             <li className={styles.notConnect}><Link to="projects" spy={true} smooth={true} offset={-50} duration={500} href='#projects'>Projects</Link></li>
-                            <li className={styles.listConnect}><a href='mailto:behzadwaseem05@gmail.com'>Connect</a></li>
+                            <li className={styles.listConnect}><a href='mailto:b2waseem@uwaterloo.ca'>Connect</a></li>
                         </ul>
                     <button className={styles.connectBtn}>
-                        <a href='mailto:testemail@gmail.com'>Let's Connect</a>
+                        <a href='mailto:b2waseem@uwaterloo.ca'>Let's Connect</a>
                         {/* <a href='#connect'><span className={styles.connectBtnText}>Let's Connect</span></a> */}
                     </button>
                 </container>
