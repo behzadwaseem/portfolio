@@ -1,0 +1,26 @@
+[
+    {
+        "skill": "HTML",
+        "logo": "experience/skills/html-logo.png"
+    },
+    {
+        "skill": "CSS",
+        "logo": "experience/skills/css-logo.png"
+    },
+    {
+        "skill": "React",
+        "logo": "experience/skills/react-logo.png"
+    },
+    {
+        "skill": "JavaScript",
+        "logo": "experience/skills/javascript-logo.png"
+    },
+    {
+        "skill": "Python",
+        "logo": "experience/skills/python-logo.png"
+    },
+    {
+        "skill": "Figma",
+        "logo": "experience/skills/figma-logo.png"
+    }
+]

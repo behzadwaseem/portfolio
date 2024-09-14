@@ -1,0 +1,14 @@
+:root {
+    /* colours */
+    --color-text: #fff;
+    --color-text-absent: #ABA8A8;
+    --color-primary: #576cbc;
+    --color-secondary: #0b2447;
+    /* --color-bg: #04152d; */
+    --color-nav: #0A0B14;
+    /* background-image: linear-gradient(#070807, #0b1e1b, #003039, #003f60, #43477d); */
+    /* background: linear-gradient(#070807, #43477d); */
+    
+    /* fonts */
+    --font-roboto: 'Roboto';
+}

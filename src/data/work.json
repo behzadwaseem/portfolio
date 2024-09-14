@@ -1,0 +1,29 @@
+[
+    {
+        "position": "Software Development & IT Intern",
+        "organization": "NCR Voyix",
+        "start": "Feb. 2024",
+        "end": "June 2024",
+        "description1": "Supported the development of a new company-wide inventory query tool and dashboard for networking devices",
+        "description2": "Designed the tool's UI with Figma and assisted the integration of a React frontend with a Django backend and SQL database",
+        "logo": "experience/work/ncr-logo.png"
+    },
+    {
+        "position": "Machine Learning Research Assistant",
+        "organization": "Vision & Image Processing Lab",
+        "start": "Sept. 2023",
+        "end": "Feb. 2024",
+        "description1": "Assisted research in computer vision applications for NHL player analysis",
+        "description2": "Developed a robust object-tracker using OpenCV to track mutiple players simultaniously through game footage and capture image data for annotations",
+        "logo": "experience/work/viplab-logo.png"
+    },
+    {
+        "position": "Mechatronics Research Assistant",
+        "organization": "UWaterloo WATiMake Lab",
+        "start": "Sept. 2023",
+        "end": "Feb. 2024",
+        "description1": "Assisted mechatronics research in machine learning applications for CNC chatter and cutting tool breakage detection",
+        "description2": "Utilized Python, Numpy, Pandas, and Matplotlib to design and implement systems to collect chatter data for neural network training",
+        "logo": "experience/work/uw-logo.png"
+    }
+]

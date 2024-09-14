@@ -1,0 +1,171 @@
+@import '../../vars.css';
+
+
+.navsection {
+    /* background: var(--color-nav); */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background: var(--color-nav);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-left: 0px;
+    z-index: 999;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+.title {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text-absent);
+    transition: 0.5s;
+}
+
+.title:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                0 0 20px white;
+}
+
+.menu {
+    display: flex;
+    padding-right: 20px;
+}
+
+.menuItems {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.menuItems a {
+    font-size: 18px;
+    color: var(--color-text-absent);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menuItems a:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                0 0 20px white;
+}
+
+.menuBtn {
+    display: none;
+}
+
+
+.notConnect {
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.listConnect {
+    display: none;
+}
+
+.connectBtn {
+    border: 2px solid var(--color-text-absent);
+    background-color: var(--color-nav);
+    font-size: 18px;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.connectBtn:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 10px white,
+                0 0 20px white;
+}
+
+.connectBtn a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: var(--color-text-absent);
+}
+
+.connectBtn a:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                0 0 20px white,
+                0 0 40px white;
+}
+
+/* .connectBtnText {
+    text-decoration: none;
+    color: var(--color-text-absent);
+} */
+
+
+/* change css elements for smaller screens */
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        opacity: 0.9;
+        position: absolute;
+        right: 0;
+        /* margin-right: 10%; */
+        flex-direction: column; 
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 20;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 17px; */
+        border-radius: 10px;
+        background: var(--color-nav);
+        padding: 24px 33px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.25);
+    }
+
+    
+    .listConnect {
+        display: inline;
+        /* gap: 20px; */
+    }
+    
+    .connect {
+        border: none;
+    }
+    
+    .connectBtn {
+        display: none;
+    }
+    
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+}

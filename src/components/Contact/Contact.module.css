@@ -1,0 +1,79 @@
+@import "../../vars.css";
+
+.contactSection{
+    position: relative;
+    display: flex;
+}
+
+.contactClosing {
+    margin-top: 8vw;
+    text-align: center;
+}
+
+.contactClosing h2 {
+    font-size: 4vw;
+    text-align: center;
+    text-shadow: 0 0 10px var(--color-primary),
+                    0 0 20px var(--color-primary);
+}
+
+.contactMeBtn {
+    align-items: center;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.contactFooter {
+    /* background: var(--color-nav); */
+    border-top: 2px solid var(--color-text-absent);
+    box-shadow: 0 0 10px var(--color-primary),
+                0 0 20px var(--color-primary);
+    /* background: red; */
+    width: 100%;
+    /* position: relative; */
+    /* display: flex; */
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 61px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.contactFooter hr {
+    border: 1px solid var(--color-text-absent);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 35vw;
+    margin-left: 35vw;
+}
+
+.contactSocial {
+    list-style: none;
+}
+
+.contactSocialLink {
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.contactSocialLink a {
+    text-decoration: none;
+    color: var(--color-text-absent);
+    transition: 0.5s;
+}
+
+.contactSocialLink a:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                0 0 20px white;
+}
+
+.contactFooter h4 {
+    color: var(--color-text-absent)
+}

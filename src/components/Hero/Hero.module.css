@@ -1,0 +1,124 @@
+@import '../../vars.css';
+
+
+.heroSection {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+}
+
+.banner {
+  margin-top: 0;
+  padding-top: 100px;
+  width: 100%;
+  height: 90vh;
+  /* padding: 260px 0 100px 0; */
+  position: relative;
+  /* background-image: url('/assets/hero/portfolio-banner-1.png'); */
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner img {
+  margin-top: 20px;
+  width:40px;
+  height: auto;
+  position: relative;
+  align-items: center;
+  margin-left: 50%;
+  animation: bounce 3s linear infinite;
+  margin: center;
+}
+
+@keyframes bounce {
+  0%, 100% {
+      bottom: 0;
+  }
+  50%{
+      transform: translateY(15px);
+  }
+}
+
+.heroSectionText {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.heroHeading {
+    font-size: 8vw;
+    font-weight: 900;
+    font-family: var(--font-roboto);
+    color: white;
+    text-shadow: 0 0 40px darkblue,
+                0 0 80px darkblue;
+}
+
+.heroText {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.typeWriter{
+    /* color: var(--color-text-absent); */
+    position: relative;
+    border: 0px solid;
+    height: 1.2em;
+    /* width: 10em; */
+    line-height: 1.2em;
+    font-size: 3vw;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.typeWriter > span{
+    position: relative;
+    top: 0;
+    animation: roll 10s ease infinite;
+}
+
+@keyframes roll {
+    0% {
+      top: 0;
+    }
+    20% {
+      top: -1.2em;
+    }
+    50% {
+      top: -2.4em;
+    }
+    85% {
+      top: -3.7em;
+    }
+  }
+
+.heroParagraph {
+    position: relative;
+    padding-top: 40px;
+    color: var(--color-text-absent);
+    font-size: 18px;
+    z-index: 1;
+    /* display: none; */
+}
+
+.highlight {
+background-color: #070807;
+border-radius: 6px;
+padding: 3px;
+}
+
+@media screen and (max-width: 830px) {
+    .heroSection {
+        margin-top: 60px;
+      }
+    
+    .heroParagraph {
+        font-size: 1.5vw;
+    }
+}

@@ -1,0 +1,100 @@
+@import "../../vars.css";
+
+.projectsSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.projectsContainer {
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.projectsTitle {
+    font-size: 5vw;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    text-shadow: 0 0 10px var(--color-primary),
+                    0 0 20px var(--color-primary);
+}
+
+.projectsContent {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+
+.projectsCard {
+    width: 30em;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: none;
+    height: fit-content;
+    align-items: center;
+    transition: transform .2s;
+}
+
+.projectsCard:hover {
+    transform: scale(1.2);
+}
+
+.projectsCardImg {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.projectsCardTitle {
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 0 0 10px darkblue,
+                0 0 20px darkblue,
+                0 0 40px darkblue;
+}
+
+.projectsCardContent {
+    margin: 0.5rem 5%;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.projectsCardBtn {
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+}
+
+@media screen and (max-width: 830px) {
+    .projectsContent {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 30px;
+    }
+
+    .projectsCard {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+}
